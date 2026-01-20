@@ -5,6 +5,7 @@ import { Marque } from '../Components/Home/Marque'
 import { Crypto } from '../Components/Home/Crypto'
 import { Platform } from '../Components/Home/Platform'
 import Currency from '../Components/Home/Currency'
+import Collapse from '../Components/Home/Collapse'
 
 export const HomeLayout: React.FC = () => {
   return (
@@ -15,7 +16,7 @@ export const HomeLayout: React.FC = () => {
       <Crypto></Crypto>
       <Platform></Platform>
       <Currency></Currency>
-      
+      <Collapse></Collapse>
       
     </div>
   )
