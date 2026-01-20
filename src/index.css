@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@plugin "daisyui";
+body{
+  background-color: #000510;
+  max-width: 1300px;
+  margin: auto;
+}
+.button{
+  @apply py-3 px-5 rounded-xl bg-[#99E39E] cursor-pointer text-black font-semibold text-lg
+}
+
+.platform-bg {
+  position: relative;
+
+  background: url('./assets/Frame\ 11.png') no-repeat right / contain;
+  border-radius: 18px;
+  overflow: hidden;
+  filter: blur(5px);
+}
+
+/* dark + glass overlay (background only) */
+/* .platform-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.65),
+    rgba(0, 0, 0, 0.3)
+  );
+
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+} */
+
+/* keep inner content normal */
+/* .platform-bg > * {
+  position: relative;
+  z-index: 1;
+} */
+
